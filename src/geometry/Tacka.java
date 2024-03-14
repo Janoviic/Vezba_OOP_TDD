@@ -3,6 +3,11 @@ package geometry;
 public class Tacka {
 	private int Kordinata1;
 	private int Kordinata2;
+	private boolean selected;
+	
+	public Tacka() {
+		
+	}
 
 	public int getKordinata1() {
 		return Kordinata1;
@@ -18,6 +23,14 @@ public class Tacka {
 
 	public void setKordinata2(int kordinata2) {
 		Kordinata2 = kordinata2;
+	}
+
+	public boolean isSelected() {
+		return selected;
+	}
+
+	public void setSelected(boolean selected) {
+		this.selected = selected;
 	}
 
 }
